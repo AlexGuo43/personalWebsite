@@ -69,7 +69,6 @@
 .homepage .footer {
   display: flex;
   flex-direction: column;
-  width: 100%;
   align-items: center;
   gap: 2.5rem;
   text-align: center;
@@ -77,6 +76,47 @@
   padding-bottom: 5rem;
 }
 .footer .socialLinks {
+  display: flex;
   flex-direction: row;
   padding-bottom: 1rem;
+  font-size: 3rem;
+  gap: 2rem;
+}
+.homepage .aboutSection {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  width: 45%;
+  align-items: center;
+}
+
+.homepage .aboutSection img {
+  height: 20rem;
+  border: 2px solid #000000;
+  border-radius: 6rem;
+}
+
+.homepage .copyright {
+  font-size: 0.7rem;
+  color: var(--color-light--1);
+}
+.homepage .btn {
+  font-size: 1.2rem;
+  border: 2px solid #0066ff;
+  color: #0066ff;
+  background: linear-gradient(to left, white 50%, #0066ff 50%) right;
+  background-size: 250% 100%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-position: left;
+  color: white;
+}
+.specBtn:hover {
+  transition: 0.5s;
+  transform: scale(130%);
+}
+.homepage .name {
+  color: rgb(138, 192, 240);
 }
