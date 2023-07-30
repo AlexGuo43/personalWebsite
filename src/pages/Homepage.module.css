@@ -109,9 +109,23 @@
   cursor: pointer;
   transition: 0.5s;
 }
+/* btn2 is for blue backgrounds */
+.homepage .btn2 {
+  font-size: 1.2rem;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background: linear-gradient(to left, #0066ff 50%, white 50%) right;
+  background-size: 250% 100%;
+  cursor: pointer;
+  transition: 0.5s;
+}
 .btn:hover {
   background-position: left;
   color: white;
+}
+.btn2:hover {
+  background-position: left;
+  color: #0066ff;
 }
 .specBtn:hover {
   transition: 0.5s;
@@ -119,4 +133,17 @@
 }
 .homepage .name {
   color: rgb(138, 192, 240);
+}
+.homepage .projects {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  align-items: center;
+  gap: 2.5rem;
+  text-align: center;
+  position: relative;
+}
+.projects img {
+  width: 60%;
+  padding: 2rem;
 }

@@ -21,9 +21,9 @@ export default function Homepage() {
           <h2>ABOUT ME</h2>
           <div className={styles.aboutSection}>
             <p>
-              Passionate undergraduate computer engineer with interests in
-              learning new technologies and programming skills at Canada&apos;s
-              #1 university.
+              Forward and analytical undergraduate computer engineer with
+              interests in learning new technologies and programming skills at
+              Canada&apos;s #1 university.
             </p>
             <img src="./selfphoto.jpg"></img>
           </div>
@@ -35,7 +35,23 @@ export default function Homepage() {
         <div className={styles.waveTop}></div>
         <Zoom delay={300}>
           <h2>PROJECTS</h2>
-          <p>Currently Under Construction</p>
+          <h2>Today-i-learned</h2>
+          <div className={styles.projects}>
+            <p>
+              Making a full stack web application to learn frontend and backend
+              technologies. The app features an online forum where users can
+              upload an interesting fact which can be upvoted or downvoted, with
+              upvoted facts showing first.
+            </p>
+            <img src="./todayilearned.PNG"></img>
+          </div>
+          <a
+            href="https://alexguo43.github.io/today-i-learned/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className={styles.btn2}>Live</button>
+          </a>
         </Zoom>
         <div className={styles.waveBottom}></div>
       </section>
