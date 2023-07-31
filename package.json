@@ -1,8 +1,8 @@
 {
+  "homepage": "https://alexguo2000.com/",
   "name": "personalwebsite",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://AlexGuo43.github.io/personalWebsite",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
