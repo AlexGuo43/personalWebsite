@@ -170,3 +170,19 @@
 .homepage .whiteFont {
   color: white;
 }
+
+@media (max-width: 600px) {
+  .homepage .aboutSection {
+    flex-direction: column;
+  }
+  .homepage .aboutSection img {
+    height: 15rem;
+  }
+  .homepage .projects {
+    flex-direction: column;
+  }
+  .projects img {
+    width: 85%;
+    padding-top: 0;
+  }
+}
