@@ -34,8 +34,8 @@ export default function Homepage() {
       <section className={styles.blue}>
         <div className={styles.waveTop}></div>
         <Zoom delay={300}>
-          <h2>PROJECTS</h2>
-          <h2>Today-i-learned</h2>
+          <h2 className={styles.whiteFont}>PROJECTS</h2>
+          <div className={styles.projectsTitle}>Today-i-learned</div>
           <div className={styles.projects}>
             <p>
               Making a full stack web application to learn frontend and backend
@@ -45,13 +45,22 @@ export default function Homepage() {
             </p>
             <img src="./todayilearned.PNG"></img>
           </div>
-          <a
-            href="https://alexguo43.github.io/today-i-learned/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className={styles.btn2}>Live</button>
-          </a>
+          <div className={styles.projectsLink}>
+            <a
+              href="https://alexguo43.github.io/today-i-learned/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className={styles.btn2}>Live</button>
+            </a>
+            <a
+              href="https://github.com/AlexGuo43/today-i-learned"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className={styles.btn2}>Source code</button>
+            </a>
+          </div>
         </Zoom>
         <div className={styles.waveBottom}></div>
       </section>
@@ -60,14 +69,34 @@ export default function Homepage() {
           <h2>CONTACTS</h2>
 
           <div className={styles.socialLinks}>
-            <a>
+            <a
+              href="mailto:alexander.guo@mail.utoronto.ca"
+              target="_bank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon icon={faEnvelope} className={styles.specBtn} />
             </a>
-            <a>
-              <FontAwesomeIcon icon={faGithub} className={styles.specBtn} />
+            <a
+              href="https://github.com/AlexGuo43"
+              target="_bank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faGithub}
+                className={styles.specBtn}
+                color="#171515"
+              />
             </a>
-            <a>
-              <FontAwesomeIcon icon={faLinkedin} className={styles.specBtn} />
+            <a
+              href="https://www.linkedin.com/in/alex-g-b0503a279/"
+              target="_bank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                className={styles.specBtn}
+                color="#0A66C2"
+              />
             </a>
           </div>
         </Zoom>

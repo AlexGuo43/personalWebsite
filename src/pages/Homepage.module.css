@@ -108,6 +108,7 @@
   background-size: 250% 100%;
   cursor: pointer;
   transition: 0.5s;
+  height: 2rem;
 }
 /* btn2 is for blue backgrounds */
 .homepage .btn2 {
@@ -118,6 +119,7 @@
   background-size: 250% 100%;
   cursor: pointer;
   transition: 0.5s;
+  height: 2rem;
 }
 .btn:hover {
   background-position: left;
@@ -132,8 +134,9 @@
   transform: scale(130%);
 }
 .homepage .name {
-  color: rgb(138, 192, 240);
+  color: rgb(108, 187, 255);
 }
+
 .homepage .projects {
   display: flex;
   flex-direction: row;
@@ -142,8 +145,28 @@
   gap: 2.5rem;
   text-align: center;
   position: relative;
+  color: white;
 }
 .projects img {
   width: 60%;
   padding: 2rem;
+}
+.homepage .projectsLink {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1rem;
+  gap: 2rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.homepage .projectsTitle {
+  color: white;
+  padding-top: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.homepage .whiteFont {
+  color: white;
 }
