@@ -27,7 +27,13 @@ export default function Homepage() {
             </p>
             <img src="./selfphoto.jpg"></img>
           </div>
-          <button className={styles.btn}>Resume</button>
+          <a
+            href="https://drive.google.com/file/d/1Wb80e9mbIlZkMqdvHhHHwMyq24fn6A9L/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className={styles.btn}>Resume</button>
+          </a>
         </Zoom>
       </section>
 
@@ -88,7 +94,7 @@ export default function Homepage() {
               />
             </a>
             <a
-              href="https://www.linkedin.com/in/alex-g-b0503a279/"
+              href="https://www.linkedin.com/in/alexguo2000/"
               target="_bank"
               rel="noopener noreferrer"
             >
