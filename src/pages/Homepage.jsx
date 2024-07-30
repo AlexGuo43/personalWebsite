@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-vars */
+import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from "./Homepage.module.css";
 import Zoom from "react-reveal/Zoom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -27,13 +30,15 @@ export default function Homepage() {
             </p>
             <img src="./selfphoto.jpg"></img>
           </div>
-          <a
+          {/* <a
             href="https://drive.google.com/file/d/1Wb80e9mbIlZkMqdvHhHHwMyq24fn6A9L/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-          >
+          > */}
+          <Link to="/resume">
             <button className={styles.btn}>Resume</button>
-          </a>
+          </Link>
+          {/* </a> */}
         </Zoom>
       </section>
 
