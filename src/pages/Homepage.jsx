@@ -37,37 +37,39 @@ export default function Homepage() {
         </Zoom>
       </section>
 
-      <section className={styles.blue}>
+      <section style = {{gap:0}}>
         <div className={styles.waveTop}></div>
-        <Zoom delay={300}>
-          <h2 className={styles.whiteFont}>PROJECTS</h2>
-          <div className={styles.projectsTitle}>Today-i-learned</div>
-          <div className={styles.projects}>
-            <p>
-              Making a full stack web application to learn frontend and backend
-              technologies. The app features an online forum where users can
-              upload an interesting fact which can be upvoted or downvoted, with
-              upvoted facts showing first.
-            </p>
-            <img src="./todayilearned.PNG"></img>
-          </div>
-          <div className={styles.projectsLink}>
-            <a
-              href="https://alexguo43.github.io/today-i-learned/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className={styles.btn2}>Live</button>
-            </a>
-            <a
-              href="https://github.com/AlexGuo43/today-i-learned"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className={styles.btn2}>Source code</button>
-            </a>
-          </div>
-        </Zoom>
+        <div style={{backgroundColor: '#0066ff', margin:0, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2.5rem',height:'45rem'}}>
+          <Zoom delay={300}>
+              <h2 className={styles.whiteFont}>PROJECTS</h2>
+              <div className={styles.projectsTitle}>Today-i-learned</div>
+              <div className={styles.projects}>
+                <p>
+                  Making a full stack web application to learn frontend and backend
+                  technologies. The app features an online forum where users can
+                  upload an interesting fact which can be upvoted or downvoted, with
+                  upvoted facts showing first.
+                </p>
+                <img src="./todayilearned.PNG"></img>
+              </div>
+              <div className={styles.projectsLink}>
+                <a
+                  href="https://alexguo43.github.io/today-i-learned/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className={styles.btn2}>Live</button>
+                </a>
+                <a
+                  href="https://github.com/AlexGuo43/today-i-learned"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className={styles.btn2}>Source code</button>
+                </a>
+              </div>
+          </Zoom>
+        </div>
         <div className={styles.waveBottom}></div>
       </section>
       <footer className={styles.footer}>
